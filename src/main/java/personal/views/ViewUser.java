@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class ViewUser {
 
-    private UserController userController;
+    private final UserController userController;
 
     public ViewUser(UserController userController) {
         this.userController = userController;
